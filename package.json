@@ -1,0 +1,15 @@
+{
+  "name": "sanitize-branch-name-action",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "keywords": [
+    "github action"
+  ],
+  "author": "yeouchien",
+  "license": "ISC",
+  "dependencies": {
+    "@actions/core": "^1.2.0",
+    "@actions/github": "^1.1.0"
+  }
+}

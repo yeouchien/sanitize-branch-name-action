@@ -1,0 +1,16 @@
+name: Sanitize Git branch name
+author: YC (yeouchien@gmail.com)
+description: Sanitize Git branch name to RFC-1123 standard
+branding:
+  icon: bold
+  color: orange
+inputs:
+  branch-name:
+    description: 'Branch Name'
+    required: true
+outputs:
+  sanitized-branch-name:
+    description: 'Sanitized Branch Name'
+runs:
+  using: 'node12'
+  main: 'index.js'
